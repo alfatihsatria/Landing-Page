@@ -11,9 +11,13 @@
     <title>box</title>
     <style>
         .body{
-            margin: 0px;
+            margin: 0px !important;
             padding: 0px;
             font-family: 'Rubik', sans-serif;
+        }
+        *,html{
+            margin: 0px;
+            padding: 0px;
         }
         .navbar{
             width: 100%;
@@ -28,6 +32,7 @@
             display: flex;
             flex-direction: row;
             width: 30%;
+            padding-left: 35px;
         }
         .navbar img{
             width: 30px;
@@ -49,11 +54,12 @@
             justify-content: center;
             display: flex;
             flex-direction: row;
+            padding-left: 68px;
         }
         .navbar ul li{
             list-style-type: none;
             padding-left: 20px;
-            margin-top: 25px;
+            margin-top: 35px;
             text-align: center;
             display: flex;
         }
@@ -68,11 +74,11 @@
             padding-right: 20px;
         }
         .tombol{
-            justify-content: center;
+            justify-content: flex-end;
             display: flex;
             flex-direction: row;
-            width: 20%;
-            margin-left: 250px;
+            width: 30%;
+            margin-left: 50px;
         }
     </style>
 </head>
@@ -97,7 +103,26 @@
     </nav>
     <main>
         <div class="jumbotron">
-            
+            <div class="search">
+                <input type="text" placeholder="Search..." style="padding-left: 20px;">
+            </div>
+            <div class="tepi">
+                <h1 style="color: white; font-size: 48px; line-height: 60px;">
+                    Start Your Day with Coffee and Good Meals
+                </h1>
+                <h2 style="color: white; font-size: 20px; line-height: 30px; margin-top: 10px;">
+                    We provide high quality beans, good taste, and healthy meals made by love just for you. Start your day with us for a bigger smile!
+                </h2>
+                <button style="background-color: #FFBA33; 
+                border-style: none; 
+                width: 230px; 
+                height: 50px; 
+                font-weight: bold; 
+                border-radius: 10px; 
+                margin-top: 30px;">
+                    Get Started
+                </button>
+            </div>
         </div>
     </main>
 </body>

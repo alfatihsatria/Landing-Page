@@ -1,0 +1,25 @@
+.jumbotron{
+    background-image: url(./foto/logo/nathan-dumlao-71u2fOofI-U-unsplash\ 2.png);
+    width: 100%;
+    height: 600px;
+}
+.tepi{
+    width: 40%;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.search{
+    justify-content: flex-end;
+    display: flex;
+}
+.search input{
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 100px;
+    margin-top: 40px;
+    border-style: none;
+    background-color: #EFEEEE;
+    color: black;
+}
