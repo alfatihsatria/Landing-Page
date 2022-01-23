@@ -1,0 +1,188 @@
+*,html{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    top: 35px;
+    left: 540px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    padding-left: 35px;
+}
+.navbar img{
+    width: 30px;
+    height: 33px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.navbar h1{
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.navbar menu{
+    justify-content: center;
+    display: flex;
+    width: 40%;
+}
+.navbar ul{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 68px;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+}
+.search img{
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 265px;
+    border-style: none;
+    margin-right: 15px;
+}
+.search img{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+.chat img{
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    border-style: none;
+    margin-right: 15px;
+}
+.chat img{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+.profile img{
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    border-style: none;
+    border-radius: 15px;
+}
+.profile img{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+.promo{
+    font-family: 'Rubik', sans-serif;
+    width: 30%;
+    border-right: 2px solid #9F9F9F;
+}
+.promo h2{
+    text-align: center;
+    font-size: 30px;
+    color: #6A4029;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.promo p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+.kupon{
+    position: relative;
+    width: 280px;
+    height: 420px;
+    background-color: #FFCB65;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 50px;
+    z-index: 2;
+}
+.kupon img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kupon p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 70%;
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    line-height: 35px;
+}
+.kupon li{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+}
+.kupon hr{
+    border-style: dashed;
+    border-color: black;
+    margin-top: 25px;
+}
+.kupon h3{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 25px;
+}
+.kupon h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.kupon h4{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.promo button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    width: 280px;
+    height: 60px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background-color: #6A4029;
+    font-weight: 700;
+}
