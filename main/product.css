@@ -91,10 +91,18 @@
     display: flex;
     flex-direction: row;
 }
-.promo{
+.halaman{
+    width: 1340px;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.halaman .promo{
     font-family: 'Rubik', sans-serif;
-    width: 30%;
+    width: 402px;
     border-right: 2px solid #9F9F9F;
+    float: left;
+    position: absolute;
 }
 .promo h2{
     text-align: center;
@@ -120,6 +128,30 @@
     margin-top: 40px;
     padding-top: 50px;
     z-index: 2;
+}
+.lainnya{
+    width: 280px;
+    height: 400px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 75px;
+    margin-left: 92px;
+    margin-bottom: 70px;
+    justify-content: space-around;
+    position: absolute;
+}
+.lainnya1{
+    width: 280px;
+    height: 330px;
+    background-color: #6A4029;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 110px;
+    margin-left: 112px;
+    margin-bottom: 70px;
+    justify-content: space-around;
+    position: absolute;
 }
 .kupon img{
     width: 130px;
@@ -185,4 +217,220 @@
     color: white;
     background-color: #6A4029;
     font-weight: 700;
+}
+.halaman .product{
+    float: right !important;
+    position: absolute;
+    padding-left: 110px;
+    font-family: 'Rubik', sans-serif;
+}
+.pilihan ul{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 380px;
+    font-size: 20px;
+    color: #9F9F9F;
+    font-weight: 400;
+}
+.pilihan ul li{
+    list-style-type: none;
+    padding-left: 68px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+}
+.hidangan{
+    padding-top: 30px;
+    padding-left: 370px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    position: absolute;
+    display: table-row;
+    border-spacing: 40px;
+}
+.hidangan img{
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 50px 70px -4px rgba(185, 185, 185, 0.418);
+}
+.hidangan .pilih{
+    width: 160px;
+    height: 230px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: white;
+    box-shadow: 0px 40px 70px -4px rgba(185, 185, 185, 0.233);
+    display: table-cell;
+}
+.hidangan h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 117px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 20px;
+}
+.hidangan p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #6A4029;
+    text-align: center;
+    padding-top: 5px;
+}
+.hidangan2{
+    padding-top: 340px;
+    padding-left: 370px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    position: absolute;
+    display: table-row;
+    border-spacing: 40px;
+}
+.hidangan2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 50px 70px -4px rgba(185, 185, 185, 0.418);
+}
+.hidangan2 .pilih{
+    width: 160px;
+    height: 230px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: white;
+    box-shadow: 0px 40px 70px -4px rgba(185, 185, 185, 0.233);
+    display: table-cell;
+}
+.hidangan2 h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 117px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 20px;
+}
+.hidangan2 p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #6A4029;
+    text-align: center;
+    padding-top: 5px;
+}
+.hidangan3{
+    padding-top: 650px;
+    padding-left: 370px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    position: absolute;
+    display: table-row;
+    border-spacing: 40px;
+}
+.hidangan3 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 50px 70px -4px rgba(185, 185, 185, 0.418);
+}
+.hidangan3 .pilih{
+    width: 160px;
+    height: 230px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: white;
+    box-shadow: 0px 40px 70px -4px rgba(185, 185, 185, 0.233);
+    display: table-cell;
+}
+.hidangan3 h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 117px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 20px;
+}
+.hidangan3 p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #6A4029;
+    text-align: center;
+    padding-top: 5px;
+}
+.page6{
+    background-image: linear-gradient(#f7f4f4e0, rgb(235, 232, 232));
+    width: 91.1%;
+    height: 400px;
+    padding-top: 180px;
+    position: absolute;
+    justify-content: space-around;
+    display: flex;
+    padding-left: 70px;
+    padding-right: 50px;
+    margin-top: 1050px;
+}
+.logo0 img{
+    float: left;
+    position: absolute;
+    margin-left: 30px;
+}
+.page6 p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.ikon{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.ikon button{
+    background-color: #6A4029;
+    border-style: none;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+.credit p{
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #AFB5C0;
+    margin-left: 45px;
+}
+.page6 ul{
+    font-family: 'Rubik', sans-serif;
+    list-style-type: none;
+    line-height: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right;
+    padding-right: 45px;
+}
+.page6 li{
+    color:#4F5665;
+    font-size: 14px;
 }
